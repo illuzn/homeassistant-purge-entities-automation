@@ -8,4 +8,4 @@ This runs daily at a set time.
 
 ## Time Pattern Trigger
 This runs every X hours as set by you.
-[![Import blueprint to Home Assistant](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/illuzn/homeassistant-purge-entities-automation/blob/main/purge_entities_time_trigger_blueprint.yaml)
+[![Import blueprint to Home Assistant](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/illuzn/homeassistant-purge-entities-automation/blob/main/purge_entities_time_pattern_trigger_blueprint.yaml)
