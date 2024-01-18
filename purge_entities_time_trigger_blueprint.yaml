@@ -35,8 +35,16 @@ blueprint:
         Enable repacking of the database (this will optimise and hopefully shrink your database size).
         This step is optional and depending on database size may cause a significant performance impact
         as the database is rewritten. Disable this to reduce disk hits. Enabled by default.
+      selector:
+        boolean:
+      default: true
 
 mode: single
+
+description: >-
+  Cleans up data by by purging entities which log too much data but which you
+  want to keep the long term statistics of, then (optionally) optimises the database.
+  Use recorder excludes for entities which you don't care about.
 
 trigger:
   - platform: time
