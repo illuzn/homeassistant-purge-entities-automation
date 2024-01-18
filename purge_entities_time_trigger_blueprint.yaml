@@ -41,11 +41,6 @@ blueprint:
 
 mode: single
 
-description: >-
-  Cleans up data by by purging entities which log too much data but which you
-  want to keep the long term statistics of, then (optionally) optimises the database.
-  Use recorder excludes for entities which you don't care about.
-
 trigger:
   - platform: time
     at: !input trigger_time
