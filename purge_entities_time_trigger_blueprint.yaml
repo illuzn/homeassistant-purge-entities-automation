@@ -1,5 +1,5 @@
 blueprint:
-  name: Cleanup database
+  name: Cleanup database (Time Trigger)
   description: >-
     Cleans up data by by purging entities which log too much data but which you
     want to keep the long term statistics of, then (optionally) optimises the database.
